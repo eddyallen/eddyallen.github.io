@@ -150,7 +150,7 @@ input:focus, textarea:focus {
 
 @media only screen and (max-width: 580px) {
   #form-main{
-  width:70%;
+  width:100%;
   }
   #form-div{
     left: 3%;

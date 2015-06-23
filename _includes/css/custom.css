@@ -16,13 +16,16 @@
 .music-section {
     width: 100%;
     padding: 50px 0;
-    color: black;
+    color: white;
     background: url(/img/shadows-on-street.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+.music-section .col-lg-8.col-lg-offset-2 {
+    background: rgba(0,0,0,.5);
 }
 
 .auto-hovered {

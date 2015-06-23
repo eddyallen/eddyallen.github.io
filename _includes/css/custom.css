@@ -13,7 +13,7 @@
     background: rgba(0,0,0,.5);
 }
 
-.photos-section {
+.music-section {
     width: 100%;
     padding: 50px 0;
     color: black;
@@ -32,9 +32,10 @@
     background-color: {{ site.color.links }};
 
     margin-top: 10px;
-
 }
-
+.auto-hovered:hover {
+    color:white;
+}
 .contact-info {
     float: left;
 }

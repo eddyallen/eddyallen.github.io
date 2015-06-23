@@ -26,13 +26,14 @@
                     Tel: +420 720426607<br />
                     +420 775957166<br />
                     +44 7572344875<br />
-                    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                    <a href="mailto:{{ site.email }}">{{ site.email }}</a><br />
+                    Skype: EddyAllen4Peace
                 </p>
 
                 <ul class="list-inline banner-social-buttons">
                     {% for network in site.social %}
                     <li>
-                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                        <a href="{{ network.url }}" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
                     </li>
                     {% endfor %}
                 </ul>

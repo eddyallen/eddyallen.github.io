@@ -19,7 +19,10 @@ social:
   # - title: skype
   #   url: eddyallen4peace
   # - title: twitter
-  #   url: 
+  #   url:
+
+soundcloud: 
+youtube: 
 
 # Build settings
 markdown: kramdown

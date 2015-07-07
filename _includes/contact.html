@@ -3,9 +3,10 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
+
                 <div id="form-main">
                     <div id="form-div">
-                    <form class="form" id="form1" action="//formspree.io/booking@eddyallen.co.uk" method="POST">
+                        <form class="form" id="form1" method="POST">
                             <p class="name">
                                 <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
                             </p>
@@ -20,8 +21,10 @@
                                 <div class="ease"></div>
                             </div>
                         </form>
+                        <script>var contactform =  document.getElementById('form1'); contactform.setAttribute('action', '//formspree.io/' + 'booking' + '@' + 'eddyallen' + '.' + 'co.uk');</script>
                     </div>
                 </div><!-- #form-main END -->
+
                 <p>
                     Tel: +420 720426607<br />
                     +420 775957166<br />
